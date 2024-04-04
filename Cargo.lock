@@ -716,7 +716,7 @@ checksum = "670ad68c9088c2a963aaa298cb369688cf3f9465ce5e2d4ca10e6e0098a1ce73"
 dependencies = [
  "libc",
  "num-integer",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
  "time",
  "winapi",
 ]
@@ -944,7 +944,7 @@ dependencies = [
  "csv",
  "itertools 0.10.1",
  "lazy_static 1.4.0",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
  "oorandom",
  "plotters",
  "rayon",
@@ -3104,7 +3104,7 @@ dependencies = [
  "dirs-next",
  "hex",
  "move-core-types",
- "num-bigint 0.4.0",
+ "num-bigint 0.4.4",
  "once_cell",
  "serde 1.0.145",
  "sha2",
@@ -3132,7 +3132,7 @@ dependencies = [
  "move-ir-types",
  "move-stdlib",
  "move-symbol-pool",
- "num-bigint 0.4.0",
+ "num-bigint 0.4.4",
  "once_cell",
  "petgraph 0.5.1",
  "regex",
@@ -3158,7 +3158,7 @@ dependencies = [
  "bcs",
  "ethnum",
  "hex",
- "num 0.4.0",
+ "num 0.4.1",
  "once_cell",
  "primitive-types 0.10.1",
  "proptest",
@@ -3222,7 +3222,7 @@ dependencies = [
  "move-model",
  "move-prover",
  "move-prover-test-utils",
- "num 0.4.0",
+ "num 0.4.1",
  "once_cell",
  "regex",
  "serde 1.0.145",
@@ -3357,7 +3357,7 @@ dependencies = [
  "move-ir-types",
  "move-prover-test-utils",
  "move-symbol-pool",
- "num 0.4.0",
+ "num 0.4.1",
  "once_cell",
  "regex",
  "serde 1.0.145",
@@ -3430,7 +3430,7 @@ dependencies = [
  "move-prover-boogie-backend",
  "move-prover-test-utils",
  "move-stackless-bytecode",
- "num 0.4.0",
+ "num 0.4.1",
  "once_cell",
  "pretty",
  "rand 0.8.4",
@@ -3461,7 +3461,7 @@ dependencies = [
  "move-core-types",
  "move-model",
  "move-stackless-bytecode",
- "num 0.4.0",
+ "num 0.4.1",
  "once_cell",
  "pretty",
  "rand 0.8.4",
@@ -3529,7 +3529,7 @@ dependencies = [
  "move-prover-test-utils",
  "move-read-write-set-types",
  "move-stdlib",
- "num 0.4.0",
+ "num 0.4.1",
  "once_cell",
  "paste",
  "petgraph 0.5.1",
@@ -3551,7 +3551,7 @@ dependencies = [
  "move-model",
  "move-prover-test-utils",
  "move-stackless-bytecode",
- "num 0.4.0",
+ "num 0.4.1",
  "serde 1.0.145",
 ]
 
@@ -3641,7 +3641,7 @@ dependencies = [
  "move-prover-test-utils",
  "move-stackless-bytecode",
  "move-stdlib",
- "num 0.4.0",
+ "num 0.4.1",
  "once_cell",
  "pretty",
  "primitive-types 0.10.1",
@@ -3944,21 +3944,21 @@ dependencies = [
  "num-integer",
  "num-iter",
  "num-rational 0.3.2",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
 name = "num"
-version = "0.4.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "43db66d1170d347f9a065114077f7dccb00c1b9478c89384490a3425279a4606"
+checksum = "b05180d69e3da0e530ba2a1dae5110317e49e3b7f3d41be227dc5f92e49ee7af"
 dependencies = [
- "num-bigint 0.4.0",
- "num-complex 0.4.0",
+ "num-bigint 0.4.4",
+ "num-complex 0.4.5",
  "num-integer",
  "num-iter",
- "num-rational 0.4.0",
- "num-traits 0.2.14",
+ "num-rational 0.4.1",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
@@ -3969,18 +3969,18 @@ checksum = "7d0a3d5e207573f948a9e5376662aa743a2ea13f7c50a554d7af443a73fbfeba"
 dependencies = [
  "autocfg",
  "num-integer",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
 name = "num-bigint"
-version = "0.4.0"
+version = "0.4.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4e0d047c1062aa51e256408c560894e5251f08925980e53cf1aa5bd00eec6512"
+checksum = "608e7659b5c3d7cba262d894801b9ec9d00de989e8a82bd4bef91d08da45cdc0"
 dependencies = [
  "autocfg",
  "num-integer",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
@@ -3989,37 +3989,36 @@ version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "747d632c0c558b87dbabbe6a82f3b4ae03720d0646ac5b7b4dae89394be5f2c5"
 dependencies = [
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
 name = "num-complex"
-version = "0.4.0"
+version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "26873667bbbb7c5182d4a37c1add32cdf09f841af72da53318fdb81543c15085"
+checksum = "23c6602fda94a57c990fe0df199a035d83576b496aa29f4e634a8ac6004e68a6"
 dependencies = [
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
 name = "num-integer"
-version = "0.1.44"
+version = "0.1.46"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d2cc698a63b549a70bc047073d2949cce27cd1c7b0a4a862d08a8031bc2801db"
+checksum = "7969661fd2958a5cb096e56c8e1ad0444ac2bbcd0061bd28660485a44879858f"
 dependencies = [
- "autocfg",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
 name = "num-iter"
-version = "0.1.42"
+version = "0.1.44"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b2021c8337a54d21aca0d59a92577a029af9431cb59b909b03252b9c164fad59"
+checksum = "d869c01cc0c455284163fd0092f1f93835385ccab5a98a0dcc497b2f8bf055a9"
 dependencies = [
  "autocfg",
  "num-integer",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
@@ -4031,19 +4030,19 @@ dependencies = [
  "autocfg",
  "num-bigint 0.3.2",
  "num-integer",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
 name = "num-rational"
-version = "0.4.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d41702bd167c2df5520b384281bc111a4b5efcf7fbc4c9c222c815b07e0a6a6a"
+checksum = "0638a1c9d0a3c0914158145bc76cff373a75a627e6ecbfb71cbe6f453a5a19b0"
 dependencies = [
  "autocfg",
- "num-bigint 0.4.0",
+ "num-bigint 0.4.4",
  "num-integer",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
@@ -4052,14 +4051,14 @@ version = "0.1.43"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "92e5113e9fd4cc14ded8e499429f396a20f98c772a47cc8622a736e1ec843c31"
 dependencies = [
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
 name = "num-traits"
-version = "0.2.14"
+version = "0.2.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9a64b1ec5cda2586e284722486d802acf1f7dbdc623e2bfc57e65ca1cd099290"
+checksum = "da0df0e5185db44f69b44f26786fe401b6c293d1907744beaa7fa62b2e5a517a"
 dependencies = [
  "autocfg",
 ]
@@ -4149,7 +4148,7 @@ version = "2.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "766f840da25490628d8e63e529cd21c014f6600c6b8517add12a6fa6167a6218"
 dependencies = [
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
 ]
 
 [[package]]
@@ -4488,7 +4487,7 @@ version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "45ca0ae5f169d0917a7c7f5a9c1a3d3d9598f18f529dd2b8373ed988efea307a"
 dependencies = [
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
  "plotters-backend",
  "plotters-svg",
  "wasm-bindgen",
@@ -4702,7 +4701,7 @@ dependencies = [
  "bitflags",
  "byteorder",
  "lazy_static 1.4.0",
- "num-traits 0.2.14",
+ "num-traits 0.2.18",
  "quick-error 2.0.0",
  "rand 0.8.4",
  "rand_chacha 0.3.0",
@@ -4738,7 +4737,7 @@ dependencies = [
  "move-model",
  "move-prover",
  "move-stackless-bytecode",
- "num 0.4.0",
+ "num 0.4.1",
  "plotters",
  "serde 1.0.145",
  "serde_json",
@@ -4762,7 +4761,7 @@ dependencies = [
  "move-model",
  "move-prover",
  "move-stackless-bytecode",
- "num 0.4.0",
+ "num 0.4.1",
  "serde 1.0.145",
  "serde_json",
  "simplelog",
